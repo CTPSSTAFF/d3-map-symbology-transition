@@ -1,0 +1,11 @@
+* {
+	font-family:"Trebuchet MS","sans-serif";
+}
+
+.italics {
+	font-style: italic;
+}
+
+#showhide {
+	margin-bottom: 25px;
+}
