@@ -1,0 +1,352 @@
+TOWN_ID,TOWN,ELEC,GAS,CABLE,ELEC_2005,GAS_2005,CABLE_2005
+116,GROVELAND,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+117,HADLEY,WMECO,Berkshire Gas,Charter,WMECO,Berkshire Gas,Charter
+118,HALIFAX,National Grid,Bay State,Comcast,National Grid,Bay State,Adelphia
+119,HAMILTON,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+120,HAMPDEN,National Grid,Bay State,Charter,National Grid,Bay State,Charter
+121,HANCOCK,National Grid; WMECO,None,None,National Grid,None,None
+122,HANOVER,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+123,HANSON,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+124,HARDWICK,National Grid,None,Comcast,National Grid,None,Comcast
+125,HARVARD,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+126,HARWICH,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+127,HATFIELD,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+128,HAVERHILL,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+129,HAWLEY,National Grid,None,None,National Grid,None,None
+130,HEATH,National Grid,None,None,National Grid,None,None
+131,HINGHAM,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+132,HINSDALE,WMECO,None,Charter,WMECO,None,Charter
+133,HOLBROOK,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+134,HOLDEN,Municipal,NSTAR,Charter,Municipal,NSTAR,Charter
+135,HOLLAND,National Grid,None,Cox,National Grid,None,Cox
+136,HOLLISTON,NSTAR,NSTAR,Comcast; Verizon,NSTAR,KeySpan; NSTAR,Comcast
+137,HOLYOKE,Municipal,Municipal,Comcast,Municipal,Municipal,Comcast
+138,HOPEDALE,National Grid,NSTAR,Comcast,National Grid,NSTAR,Comcast
+139,HOPKINTON,NSTAR,NSTAR,Comcast; Verizon,NSTAR,NSTAR,Comcast
+140,HUBBARDSTON,National Grid,None,Charter,National Grid,None,Charter
+141,HUDSON,Municipal,NSTAR,Comcast; RCN,Municipal,KeySpan; NSTAR,Comcast
+142,HULL,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+143,HUNTINGTON,WMECO,None,Comcast,WMECO,None,Comcast
+144,IPSWICH,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+145,KINGSTON,NSTAR,NSTAR,Comcast,NSTAR,NSTAR,Adelphia
+146,LAKEVILLE,Municipal,Bay State,Comcast,NSTAR,Bay State,Comcast
+147,LANCASTER,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+148,LANESBOROUGH,WMECO,Berkshire Gas,Charter,WMECO,Berkshire Gas,Charter
+149,LAWRENCE,National Grid,Bay State,Comcast; Verizon,National Grid,Bay State,Comcast
+150,LEE,WMECO,Berkshire Gas,Time Warner,WMECO,Berkshire Gas,Adelphia
+151,LEICESTER,National Grid,NSTAR,Charter,National Grid,KeySpan; NSTAR,Charter
+152,LENOX,National Grid,Berkshire Gas,Time Warner,National Grid; WMECO,Berkshire Gas,Adelphia
+153,LEOMINSTER,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+154,LEVERETT,WMECO,None,None,WMECO,None,None
+155,LEXINGTON,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+156,LEYDEN,WMECO,None,None,WMECO,None,None
+157,LINCOLN,NSTAR,National Grid,Comcast; Verizon,NSTAR,KeySpan,Comcast
+158,LITTLETON,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+159,LONGMEADOW,WMECO,Bay State,Comcast,WMECO,Bay State,Comcast
+160,LOWELL,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+161,LUDLOW,WMECO,Bay State,Charter,WMECO,Bay State,Charter
+162,LUNENBURG,UNITIL,National Grid; UNITIL,Comcast,UNITIL,KeySpan; UNITIL,Comcast
+163,LYNN,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+164,LYNNFIELD,Municipal,National Grid,Comcast; RCN; Verizon,Municipal,KeySpan,Comcast
+165,MALDEN,National Grid,National Grid,Comcast; RCN; Verizon,National Grid,KeySpan,Comcast
+166,MANCHESTER,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+167,MANSFIELD,Municipal,Bay State,Comcast,Municipal,Bay State; KeySpan,Comcast
+168,MARBLEHEAD,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+169,MARION,NSTAR,NSTAR,Comcast; Verizon,NSTAR,NSTAR,Comcast
+170,MARLBOROUGH,National Grid,NSTAR,Comcast; RCN; Verizon,National Grid,KeySpan; NSTAR,Comcast
+171,MARSHFIELD,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Adelphia
+172,MASHPEE,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+173,MATTAPOISETT,NSTAR,NSTAR,Comcast; Verizon,NSTAR,NSTAR,Comcast
+174,MAYNARD,NSTAR,NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Comcast
+175,MEDFIELD,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Comcast
+176,MEDFORD,NSTAR,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+177,MEDWAY,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Comcast
+178,MELROSE,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+179,MENDON,National Grid,Bay State; NSTAR,Comcast,National Grid,Bay State; NSTAR,Comcast
+180,MERRIMAC,Municipal,National Grid,Comcast,Municipal,KeySpan,Adelphia
+181,METHUEN,National Grid,Bay State,Comcast; Verizon,National Grid,Bay State; KeySpan,Comcast
+182,MIDDLEBOROUGH,Municipal,Municipal,Comcast; Verizon,NSTAR,Municipal,Comcast
+183,MIDDLEFIELD,WMECO,None,None,WMECO,None,None
+184,MIDDLETON,Municipal,National Grid,Comcast; RCN,Municipal,KeySpan,Comcast
+185,MILFORD,National Grid,NSTAR,Comcast,National Grid,NSTAR,Comcast
+186,MILLBURY,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+187,MILLIS,NSTAR,Bay State,Comcast,NSTAR,Bay State; KeySpan,Comcast
+188,MILLVILLE,National Grid,NSTAR,Charter,National Grid,None,Charter
+189,MILTON,NSTAR,National Grid,Comcast; RCN,NSTAR,KeySpan,Comcast
+190,MONROE,National Grid,None,None,National Grid,None,None
+191,MONSON,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+192,MONTAGUE,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+193,MONTEREY,National Grid,None,None,National Grid,None,None
+194,MONTGOMERY,WMECO,None,None,WMECO,None,None
+195,MOUNT WASHINGTON,National Grid,None,None,National Grid,None,None
+196,NAHANT,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+197,NANTUCKET,National Grid,None,Comcast,National Grid,None,Comcast
+198,NATICK,NSTAR,NSTAR,Comcast; RCN; Verizon,NSTAR,KeySpan; NSTAR,Comcast; RCN
+199,NEEDHAM,NSTAR,NSTAR,Comcast; RCN; Verizon,NSTAR,KeySpan; NSTAR,Comcast; RCN
+200,NEW ASHFORD,WMECO,None,None,WMECO,None,None
+201,NEW BEDFORD,NSTAR,NSTAR,Comcast,NSTAR,NSTAR,Comcast
+202,NEW BRAINTREE,National Grid,None,None,National Grid,None,None
+203,NEW MARLBOROUGH,National Grid,None,None,National Grid,None,None
+204,NEW SALEM,National Grid,None,None,National Grid,None,None
+205,NEWBURY,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+206,NEWBURYPORT,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+207,NEWTON,NSTAR,National Grid,Comcast; RCN,NSTAR,KeySpan,Comcast; RCN
+208,NORFOLK,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Comcast
+209,NORTH ADAMS,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+210,NORTH ANDOVER,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+211,NORTH ATTLEBORO,Municipal,New England Gas,Comcast,Municipal,New England Gas,Comcast
+212,NORTH BROOKFIELD,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+213,NORTH READING,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+214,NORTHAMPTON,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+215,NORTHBOROUGH,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+216,NORTHBRIDGE,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+217,NORTHFIELD,WMECO,None,Comcast,WMECO,None,Comcast
+218,NORTON,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+219,NORWELL,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+220,NORWOOD,Municipal,National Grid,Comcast; RCN; Norwood,Municipal,KeySpan,Comcast; Norwood
+221,OAK BLUFFS,NSTAR,None,Comcast,NSTAR,None,Adelphia
+222,OAKHAM,National Grid,None,Charter,National Grid,None,Charter
+223,ORANGE,National Grid,None,Time Warner,National Grid,None,Time Warner
+224,ORLEANS,NSTAR,None,Comcast,NSTAR,KeySpan,Comcast
+225,OTIS,WMECO,None,None,WMECO,None,None
+226,OXFORD,National Grid,None,Charter,National Grid,None,Charter
+227,PALMER,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+228,PAXTON,Municipal,None,Charter,Municipal,None,Charter
+229,PEABODY,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+230,PELHAM,WMECO,None,Comcast,WMECO,None,Comcast
+231,PEMBROKE,NSTAR,Bay State,Comcast,National Grid; NSTAR,Bay State; KeySpan,Adelphia
+232,PEPPERELL,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+233,PERU,WMECO,None,None,WMECO,None,None
+234,PETERSHAM,National Grid,None,None,National Grid,None,None
+235,PHILLIPSTON,National Grid,None,Comcast,National Grid,None,Comcast
+236,PITTSFIELD,WMECO,Berkshire Gas,Time Warner,WMECO,Berkshire Gas,Time Warner
+237,PLAINFIELD,WMECO,None,None,WMECO,None,None
+238,PLAINVILLE,National Grid,New England Gas,Comcast,National Grid,New England Gas,Comcast
+239,PLYMOUTH,NSTAR,NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Adelphia
+240,PLYMPTON,NSTAR,Bay State,Comcast,NSTAR,Bay State,Adelphia
+241,PRINCETON,Municipal,None,None,Municipal,None,None
+242,PROVINCETOWN,NSTAR,None,Comcast,NSTAR,None,Comcast
+243,QUINCY,National Grid,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+244,RANDOLPH,National Grid,Bay State,Comcast; RCN,National Grid,Bay State; KeySpan,Comcast
+245,RAYNHAM,Municipal,Bay State,Comcast,Municipal,Bay State,Comcast
+246,READING,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+247,REHOBOTH,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+248,REVERE,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+249,RICHMOND,WMECO,None,Time Warner,WMECO,None,Time Warner
+250,ROCHESTER,NSTAR,NSTAR,Comcast; Verizon,NSTAR,KeySpan; NSTAR,Comcast
+251,ROCKLAND,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Adelphia
+252,ROCKPORT,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+253,ROWE,National Grid,None,None,National Grid,None,None
+254,ROWLEY,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+255,ROYALSTON,National Grid,None,None,National Grid,None,None
+256,RUSSELL,Municipal,None,Russell,Municipal,None,Russell
+257,RUTLAND,National Grid,None,Charter,National Grid,None,Charter
+258,SALEM,National Grid,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+259,SALISBURY,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+260,SANDISFIELD,WMECO,None,None,WMECO,None,None
+261,SANDWICH,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Adelphia
+262,SAUGUS,National Grid,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+263,SAVOY,WMECO,None,None,WMECO,None,None
+264,SCITUATE,NSTAR,Bay State,Comcast,National Grid; NSTAR,Bay State; KeySpan,Comcast
+265,SEEKONK,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+266,SHARON,NSTAR,Bay State,Comcast; RCN,NSTAR,Bay State; KeySpan,Comcast
+267,SHEFFIELD,National Grid,None,Time Warner,National Grid,None,Adelphia
+268,SHELBURNE,WMECO,None,Comcast,WMECO,None,Comcast
+269,SHERBORN,NSTAR,NSTAR,Comcast; Verizon,NSTAR,KeySpan; NSTAR,Comcast
+270,SHIRLEY,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+271,SHREWSBURY,Municipal,NSTAR,Shrewsbury,Municipal,NSTAR,Shrewsbury
+272,SHUTESBURY,National Grid,None,None,National Grid,None,None
+273,SOMERSET,National Grid,New England Gas,Comcast,National Grid,New England Gas,Comcast
+274,SOMERVILLE,NSTAR,National Grid; NSTAR,Comcast; RCN,NSTAR,KeySpan; NSTAR,Comcast; RCN
+275,SOUTH HADLEY,Municipal,Bay State,Comcast,Municipal,Bay State,Comcast
+276,SOUTHAMPTON,WMECO,None,Charter,WMECO,None,Charter
+277,SOUTHBOROUGH,National Grid,NSTAR,Charter; Verizon,National Grid,KeySpan; NSTAR,Charter
+278,SOUTHBRIDGE,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+279,SOUTHWICK,WMECO,Bay State,Comcast,WMECO,Bay State,Comcast
+280,SPENCER,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+281,SPRINGFIELD,WMECO,Bay State,Comcast,WMECO,Bay State,Comcast
+282,STERLING,Municipal,None,Comcast,Municipal,None,Comcast
+283,STOCKBRIDGE,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+284,STONEHAM,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+285,STOUGHTON,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+1,ABINGTON,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Adelphia
+2,ACTON,NSTAR,National Grid,Comcast; Verizon,NSTAR,KeySpan,Comcast
+3,ACUSHNET,NSTAR,NSTAR,Comcast; RCN,NSTAR,NSTAR,Comcast
+4,ADAMS,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+5,AGAWAM,WMECO,Bay State,Comcast,WMECO,Bay State,Comcast
+6,ALFORD,National Grid,None,None,National Grid,None,None
+7,AMESBURY,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+8,AMHERST,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+9,ANDOVER,National Grid,Bay State,Comcast; Verizon,National Grid,Bay State; KeySpan,Comcast
+10,ARLINGTON,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+11,ASHBURNHAM,Municipal,None,Comcast,Municipal,None,Comcast
+12,ASHBY,UNITIL,UNITIL,Comcast,UNITIL,UNITIL,Comcast
+13,ASHFIELD,WMECO,None,None,WMECO,None,None
+14,ASHLAND,NSTAR,NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Comcast
+15,ATHOL,National Grid,None,Time Warner,National Grid,None,Time Warner
+16,ATTLEBORO,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+17,AUBURN,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+18,AVON,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+19,AYER,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+20,BARNSTABLE,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+21,BARRE,National Grid,None,Charter,National Grid,None,Charter
+22,BECKET,WMECO,None,None,WMECO,None,None
+23,BEDFORD,NSTAR,National Grid,Comcast; Verizon,NSTAR,KeySpan,Comcast
+24,BELCHERTOWN,National Grid,None,Charter,National Grid,None,Charter
+25,BELLINGHAM,NSTAR,Bay State; Blackstone Gas Co.,Comcast,National Grid; NSTAR,Bay State,Comcast
+26,BELMONT,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+27,BERKLEY,Municipal,Bay State; NSTAR,Comcast,Municipal,Bay State,Comcast
+28,BERLIN,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+29,BERNARDSTON,WMECO,None,Comcast,WMECO,None,Comcast
+30,BEVERLY,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+31,BILLERICA,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+32,BLACKSTONE,National Grid,Blackstone Gas Co.,Comcast,National Grid,Blackstone Gas Co.,Comcast
+33,BLANDFORD,WMECO,None,None,WMECO,None,None
+34,BOLTON,National Grid,NSTAR,Comcast,National Grid,NSTAR,Comcast
+35,BOSTON,NSTAR,National Grid; NSTAR,Comcast; RCN,NSTAR,KeySpan; NSTAR,Comcast; RCN
+36,BOURNE,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Adelphia
+37,BOXBOROUGH,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+38,BOXFORD,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+39,BOYLSTON,Municipal,NSTAR,Charter,Municipal,NSTAR,Charter
+40,BRAINTREE,Municipal,National Grid,Comcast; RCN; Braintree,Municipal,KeySpan,Comcast; Braintree
+41,BREWSTER,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+42,BRIDGEWATER,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+43,BRIMFIELD,National Grid,None,Charter,National Grid,None,Charter
+44,BROCKTON,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+45,BROOKFIELD,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+46,BROOKLINE,NSTAR,National Grid,Comcast; RCN,NSTAR,KeySpan,Comcast; RCN
+47,BUCKLAND,WMECO,None,Comcast,WMECO,None,Comcast
+48,BURLINGTON,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+49,CAMBRIDGE,NSTAR,National Grid; NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Comcast
+50,CANTON,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Comcast
+51,CARLISLE,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+52,CARVER,NSTAR,NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Adelphia
+53,CHARLEMONT,National Grid,None,None,National Grid,None,None
+54,CHARLTON,National Grid,None,Charter,National Grid,None,Charter
+55,CHATHAM,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+56,CHELMSFORD,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+57,CHELSEA,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+58,CHESHIRE,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+59,CHESTER,Municipal,None,Comcast,Municipal,None,Comcast
+60,CHESTERFIELD,WMECO,None,None,WMECO,None,None
+61,CHICOPEE,Municipal,Bay State,Charter,Municipal,Bay State,Charter
+62,CHILMARK,NSTAR,None,Comcast,NSTAR,None,Adelphia
+63,CLARKSBURG,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+64,CLINTON,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+65,COHASSET,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+66,COLRAIN,WMECO,None,None,WMECO,None,None
+67,CONCORD,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+68,CONWAY,WMECO,None,Comcast,WMECO,None,Comcast
+69,CUMMINGTON,WMECO,None,None,WMECO,None,None
+70,DALTON,WMECO,Berkshire Gas,Time Warner,WMECO,Berkshire Gas,Time Warner
+71,DANVERS,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
+72,DARTMOUTH,NSTAR,NSTAR,Comcast,NSTAR,NSTAR,Comcast
+73,DEDHAM,NSTAR,NSTAR,Comcast; RCN; Verizon,NSTAR,KeySpan; NSTAR,Comcast; RCN
+74,DEERFIELD,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+75,DENNIS,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+76,DIGHTON,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+77,DOUGLAS,National Grid,None,Charter,National Grid,None,Charter
+78,DOVER,NSTAR,Bay State; NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Comcast
+79,DRACUT,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+80,DUDLEY,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+81,DUNSTABLE,National Grid,National Grid,Charter; Verizon,National Grid,KeySpan,Charter
+82,DUXBURY,NSTAR,Bay State,Comcast,NSTAR,Bay State; KeySpan,Adelphia
+83,EAST BRIDGEWATER,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+84,EAST BROOKFIELD,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+85,EAST LONGMEADOW,National Grid,Bay State,Charter,National Grid,Bay State,Charter
+86,EASTHAM,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+87,EASTHAMPTON,WMECO,Bay State,Charter,WMECO,Bay State,Charter
+88,EASTON,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+89,EDGARTOWN,NSTAR,None,Comcast,NSTAR,None,Adelphia
+90,EGREMONT,National Grid,None,None,National Grid,None,None
+91,ERVING,National Grid,None,Comcast,National Grid; WMECO,None,Comcast
+92,ESSEX,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+93,EVERETT,National Grid,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+94,FAIRHAVEN,NSTAR,NSTAR,Comcast; RCN,NSTAR,NSTAR,Comcast
+95,FALL RIVER,National Grid,New England Gas,Comcast,National Grid,New England Gas,Comcast
+96,FALMOUTH,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Adelphia
+97,FITCHBURG,UNITIL,UNITIL,Comcast,UNITIL,UNITIL,Comcast
+98,FLORIDA,National Grid,None,None,National Grid,None,None
+99,FOXBOROUGH,National Grid,Bay State,Comcast; RCN,National Grid,Bay State; KeySpan,Comcast
+100,FRAMINGHAM,NSTAR,NSTAR,Comcast; Verizon,NSTAR,KeySpan; NSTAR,Comcast; RCN
+101,FRANKLIN,National Grid,Bay State,Comcast; RCN; Verizon,National Grid,Bay State; KeySpan,Comcast
+102,FREETOWN,NSTAR,NSTAR,Comcast,NSTAR,NSTAR,Comcast
+103,GARDNER,National Grid,UNITIL,Comcast,National Grid,UNITIL,Comcast
+104,AQUINNAH,NSTAR,None,Comcast,NSTAR,None,Adelphia
+105,GEORGETOWN,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+106,GILL,WMECO,None,Comcast,WMECO,None,Comcast
+107,GLOUCESTER,National Grid,National Grid,Comcast,National Grid,KeySpan,Adelphia
+108,GOSHEN,National Grid,None,None,National Grid,None,None
+109,GOSNOLD,Municipal,None,None,Municipal,None,None
+110,GRAFTON,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+111,GRANBY,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+112,GRANVILLE,WMECO,None,Comcast,WMECO,None,Comcast
+113,GREAT BARRINGTON,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+114,GREENFIELD,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+115,GROTON,Municipal,National Grid,Charter,Municipal,KeySpan,Charter
+286,STOW,Municipal,NSTAR,Comcast,Municipal,KeySpan; NSTAR,Comcast
+287,STURBRIDGE,National Grid,None,Charter,National Grid,None,Charter
+288,SUDBURY,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+289,SUNDERLAND,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+290,SUTTON,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+291,SWAMPSCOTT,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+292,SWANSEA,National Grid,New England Gas,Comcast,National Grid,New England Gas,Comcast
+293,TAUNTON,Municipal,Bay State,Comcast,Municipal,Bay State,Comcast
+294,TEMPLETON,Municipal,None,Comcast,Municipal,None,Comcast
+295,TEWKSBURY,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+296,TISBURY,NSTAR,None,Comcast,NSTAR,None,Adelphia
+297,TOLLAND,WMECO,None,None,WMECO,None,None
+298,TOPSFIELD,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+299,TOWNSEND,UNITIL,UNITIL,Comcast,UNITIL,UNITIL,Comcast
+300,TRURO,NSTAR,None,Comcast,NSTAR,None,Comcast
+301,TYNGSBOROUGH,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+302,TYRINGHAM,WMECO,None,None,WMECO,None,None
+303,UPTON,National Grid,NSTAR,Charter; Comcast,National Grid,NSTAR,Comcast; Charter
+304,UXBRIDGE,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+305,WAKEFIELD,Municipal,Municipal,Comcast; RCN; Verizon,Municipal,KeySpan; Municipal,Comcast; RCN
+306,WALES,National Grid,None,Charter,National Grid,None,Charter
+307,WALPOLE,NSTAR,Bay State,Comcast; Verizon,NSTAR,Bay State; KeySpan,Comcast
+308,WALTHAM,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+309,WARE,National Grid,None,Comcast,National Grid,None,Comcast
+310,WAREHAM,NSTAR,National Grid,Comcast; Verizon,NSTAR,KeySpan,Comcast
+311,WARREN,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+312,WARWICK,National Grid,None,None,National Grid,None,None
+313,WASHINGTON,WMECO,None,None,WMECO,None,None
+314,WATERTOWN,NSTAR,National Grid,Comcast; RCN,NSTAR,KeySpan,Comcast; RCN
+315,WAYLAND,NSTAR,National Grid; NSTAR,Comcast,NSTAR,KeySpan; NSTAR,Comcast
+316,WEBSTER,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+317,WELLESLEY,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+318,WELLFLEET,NSTAR,None,Comcast,NSTAR,None,Comcast
+319,WENDELL,National Grid,None,None,National Grid,None,None
+320,WENHAM,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+321,WEST BOYLSTON,Municipal,NSTAR,Charter,Municipal,NSTAR,Charter
+322,WEST BRIDGEWATER,National Grid,Bay State,Comcast,National Grid,Bay State; KeySpan,Comcast
+323,WEST BROOKFIELD,National Grid,National Grid,Charter,National Grid,KeySpan,Charter
+324,WEST NEWBURY,National Grid,National Grid,Comcast; Verizon,National Grid,KeySpan,Comcast
+325,WEST SPRINGFIELD,WMECO,Bay State,Comcast,WMECO,Bay State,Comcast
+326,WEST STOCKBRIDGE,National Grid,None,Charter,National Grid,None,Charter
+327,WEST TISBURY,NSTAR,None,Comcast,NSTAR,None,Adelphia
+328,WESTBOROUGH,National Grid,NSTAR,Charter; Verizon,National Grid,NSTAR,Charter
+329,WESTFIELD,Municipal,Municipal,Comcast,Municipal,Municipal,Comcast
+330,WESTFORD,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+331,WESTHAMPTON,WMECO,None,Comcast,WMECO,None,Comcast
+332,WESTMINSTER,National Grid,UNITIL,Comcast,National Grid,UNITIL,Comcast
+333,WESTON,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
+334,WESTPORT,NSTAR,New England Gas,Charter,National Grid; NSTAR,New England Gas,Charter
+335,WESTWOOD,NSTAR,NSTAR,Comcast; RCN; Verizon,NSTAR,KeySpan; NSTAR,Comcast
+336,WEYMOUTH,National Grid,National Grid,Comcast; RCN,National Grid,KeySpan,Comcast
+337,WHATELY,WMECO,Berkshire Gas,Comcast,WMECO,Berkshire Gas,Comcast
+338,WHITMAN,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+339,WILBRAHAM,National Grid,Bay State,Charter,National Grid,Bay State,Charter
+340,WILLIAMSBURG,National Grid,None,Comcast,National Grid,None,Comcast
+341,WILLIAMSTOWN,National Grid,Berkshire Gas,Time Warner,National Grid,Berkshire Gas,Adelphia
+342,WILMINGTON,Municipal,National Grid,Comcast; Verizon,Municipal,KeySpan,Comcast
+343,WINCHENDON,National Grid,None,Comcast,National Grid,None,Comcast
+344,WINCHESTER,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast
+345,WINDSOR,WMECO,None,None,WMECO,None,None
+346,WINTHROP,National Grid,National Grid,Comcast,National Grid,KeySpan,Comcast
+347,WOBURN,NSTAR,National Grid,Comcast; RCN; Verizon,NSTAR,KeySpan,Comcast; RCN
+348,WORCESTER,National Grid,NSTAR,Charter,National Grid,NSTAR,Charter
+349,WORTHINGTON,WMECO,None,None,WMECO,None,None
+350,WRENTHAM,National Grid,Bay State,Comcast,National Grid,Bay State,Comcast
+351,YARMOUTH,NSTAR,National Grid,Comcast,NSTAR,KeySpan,Comcast
