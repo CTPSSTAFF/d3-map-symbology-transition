@@ -1,7 +1,4 @@
-var CTPS = {};
-CTPS.demoApp = {};
-
-CTPS.demoApp.init = function() {
+function initialize() {
 	$('#showhide').click(function(e) {
 		if (this.value === 'Show description') {
 			$('#blurb').show();
@@ -11,14 +8,17 @@ CTPS.demoApp.init = function() {
 			this.value = 'Show description';		
 		}
 	});
-	queue()
-		.defer(d3.json, "DATA/boston_region_mpo_towns.topo.json")
-		.defer(d3.csv, "DATA/towns_poly_utilities.csv")
-		.awaitAll(CTPS.demoApp.generateViz);
-} // CTPS.demoApp.init()
+	
+	d3.json("DATA/boston_region_mpo_towns_97.geo.json")
+		.then(function(mpoFeatureCollection) {
+			d3.csv("DATA/towns_poly_utilities.csv")
+				.then(function(maTownsUtils) {
+					generateViz(mpoFeatureCollection, maTownsUtils);
+			});
+		});
+} // initialize()
 
-CTPS.demoApp.generateViz = function(error, results) {	
-
+function generateViz(mpoFeatureCollection, maTownUtils) {	
 	// Bind event handler
 	 $('input:radio[name=util_choice]').change(function() {
 		switch(this.value) {
@@ -36,17 +36,14 @@ CTPS.demoApp.generateViz = function(error, results) {
 		}
 	});
 	
-	var topoJsonData = results[0];
-	var mpoFeatureCollection = topojson.feature(topoJsonData, topoJsonData.objects.collection);
-	
-	var maTownUtils = results[1];
-	// Sort array on TOWN_ID field.
+	// Sort maTownUtils array on TOWN_ID field.
 	// Remember: TOWN_IDs are 1-based; JS array indices are 0-based!
-	maTownUtils.sort(function(a,b) { return a.TOWN_ID - b.TOWN_ID; });
+	maTownUtils.sort(function(a,b) { return a.town_id - b.town_id; });
 	
 	var width = 960,
 		height = 500;
-		
+
+/*
 	// Define Zoom Function Event Listener
 	function zoomFunction() {
 	  d3.selectAll("path")
@@ -59,32 +56,42 @@ CTPS.demoApp.generateViz = function(error, results) {
 	var zoom = d3.behavior.zoom()
 		.scaleExtent([0.2, 10]) 
 		.on("zoom", zoomFunction);
+*/
+
 
 	// SVG Viewport
 	var svgContainer = d3.select("body").append("svg")
 		.attr("width", width)
 		.attr("height", height)
-		.style("border", "2px solid steelblue")
-		.call(zoom);
-
-	var projection = d3.geo.conicConformal()
+		.style("border", "2px solid steelblue");
+		
+		// .call(zoom);
+ 
+	var projection = d3.geoConicConformal()
 		.parallels([41 + 43 / 60, 42 + 41 / 60])
 	    .rotate([71 + 30 / 60, -41 ])
 		.scale([30000]) // N.B. The scale and translation vector were determined empirically.
 		.translate([300,1160]);
 		
-	var geoPath = d3.geo.path().projection(projection);
+	var geoPath = d3.geoPath().projection(projection);
 		
 	// Create Boston Region MPO map with SVG paths for individual towns.
 	var mpoSVG = svgContainer.selectAll("path")
 		.data(mpoFeatureCollection.features)
 		.enter()
 		.append("path")
-		.attr("id", function(d, i) { return d.properties.TOWN_ID; })
+		.attr("id", function(d, i) { return d.properties.town_id; })
 		.attr("d", function(d, i) { return geoPath(d); })
 		.style("fill", "#ffffff")
 		.append("title")   
-			.text(function(d, i) { return d.properties.TOWN });
+			.text(function(d, i) { 
+					var retval;
+					retval = d.properties.town + '\n';
+					retval += 'Electric: ' + maTownUtils[d.properties.town_id-1].elec + '\n';
+					retval += 'Gas: ' + maTownUtils[d.properties.town_id-1].gas + '\n';
+					retval += 'Cable: ' + maTownUtils[d.properties.town_id-1].cable;
+					return retval; 
+				});
 			
 	symbolizeElectric();
 	
@@ -97,7 +104,7 @@ CTPS.demoApp.generateViz = function(error, results) {
 			.style("fill", function(d, i) {
 				var retval;
 				// Note: This another place where the logical 'join' is performed.
-				switch(maTownUtils[d.properties.TOWN_ID-1].ELEC) {
+				switch(maTownUtils[d.properties.town_id-1].elec) {
 				case "Municipal":
 					retval = "#66c2a5"; // "#fc8d59"
 					break;
@@ -123,7 +130,7 @@ CTPS.demoApp.generateViz = function(error, results) {
 			.duration(4000)
 			.style("fill", function(d, i) {
 				// Note: This is another place were the logical 'join' is performed.
-				switch(maTownUtils[d.properties.TOWN_ID-1].GAS) {	
+				switch(maTownUtils[d.properties.town_id-1].gas) {	
 				case "Bay State":
 					retval = "#7fc97f";
 					break;
@@ -161,7 +168,7 @@ CTPS.demoApp.generateViz = function(error, results) {
 			.duration(4000)
 			.style("fill", function(d, i) {
 				// Note: This is another place were the logical 'join' is performed.
-				switch(maTownUtils[d.properties.TOWN_ID-1].CABLE) {	
+				switch(maTownUtils[d.properties.town_id-1].cable) {	
 				case "Charter; Verizon":
 					retval = "#8dd3c7";
 					break;
@@ -190,5 +197,4 @@ CTPS.demoApp.generateViz = function(error, results) {
 				return retval;
 			});	
 	} // symbolizeCable()
-	
-} // CTPS.demoApp.generateViz()
+} // generateViz()

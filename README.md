@@ -3,6 +3,4 @@ Demo illustrating how to transition symbology in a d3.js map
 
 This demo app makes use of the following external resources loaded from a CDN:
 * jQuery version 1.12.4
-* D3 version 3.5.17
-* Topojson version 1.6.2
-* Version 1.0.7 of the Asynchronous Queue library
+* D3 version 6.3.1
