@@ -1,4 +1,4 @@
-TOWN_ID,TOWN,ELEC,GAS,CABLE,ELEC_2005,GAS_2005,CABLE_2005
+town_id,town,elec,gas,cable,elec_2005,gas_2005,cable_2005
 116,GROVELAND,Municipal,National Grid,Comcast,Municipal,KeySpan,Comcast
 117,HADLEY,WMECO,Berkshire Gas,Charter,WMECO,Berkshire Gas,Charter
 118,HALIFAX,National Grid,Bay State,Comcast,National Grid,Bay State,Adelphia
