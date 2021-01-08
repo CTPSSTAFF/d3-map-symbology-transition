@@ -43,47 +43,79 @@ function generateViz(mpoFeatureCollection, maTownUtils) {
 	var width = 960,
 		height = 500;
 
-/*
-	// Define Zoom Function Event Listener
-	function zoomFunction() {
-	  d3.selectAll("path")
-		.attr("transform",
-			"translate(" + d3.event.translate
-			+ ") scale (" + d3.event.scale + ")");
-	}
-
-	// Define Zoom Behavior
-	var zoom = d3.behavior.zoom()
-		.scaleExtent([0.2, 10]) 
-		.on("zoom", zoomFunction);
-*/
-
-
 	// SVG Viewport
 	var svgContainer = d3.select("body").append("svg")
 		.attr("width", width)
 		.attr("height", height)
 		.style("border", "2px solid steelblue");
-		
-		// .call(zoom);
- 
+
 	var projection = d3.geoConicConformal()
 		.parallels([41 + 43 / 60, 42 + 41 / 60])
-	    .rotate([71 + 30 / 60, -41 ])
-		.scale([30000]) // N.B. The scale and translation vector were determined empirically.
-		.translate([300,1160]);
+	    .rotate([71 + 30 / 60, -41 ]);
+		
+		// .scale([30000]) // N.B. The scale and translation vector were determined empirically.
+		// .translate([300,2160]);
 		
 	var geoPath = d3.geoPath().projection(projection);
+	
+	
+	// Define what to do when panning or zooming - event listener
+	// As of D3V6, event handlers are passed the _event_ and _datum_ as 
+	// parameters, and _this_ is being the target node.
+	var zooming = function(e, d) {
+		// Log e.transform, so you can see all the goodies inside
+		// console.log(e.transform);
 		
+		//New offset array
+		var offset = [e.transform.x, e.transform.y];
+		//Calculate new scale
+		var newScale = e.transform.k * 2000;
+		//Update projection with new offset and scale
+		projection.translate(offset)
+				  .scale(newScale);
+		//Update all paths
+		svgContainer.selectAll("path")
+			.attr("d", geoPath);
+	}
+	
+	// Then define the zoom behavior
+	// Constrain zoom range to be from 1/6x to 10x (N.B. application of scale factor)
+	var zoom = d3.zoom()
+				 .scaleExtent([1.0, 60.0])
+				 .on("zoom", zooming);
+				 
+	// The center of the MPO region (approximate)
+	var center = projection([-71.2, 42.3]);
+	
+	// Create a container in which all zoomable objects will live
+	var map = svgContainer.append("g")
+			.attr("id", "map")
+			.call(zoom)  //Bind the zoom behavior
+			.call(zoom.transform, d3.zoomIdentity  	//Then apply the initial transform.
+				.translate(350,975)				// N.B. The translation vector and 
+				.scale(12));							//      scale factor were determined
+													//      empirically.
+													// N.B. The scale factor is multiplied
+													//      by 2,000 in the zoom handler.
+
+	//Create a new, invisible background rect to catch zoom events	
+	map.append("rect")
+		.attr("x", 0)
+		.attr("y", 0)
+		.attr("width", width)
+		.attr("height", height)
+		.attr("opacity", 0);
+	
+
 	// Create Boston Region MPO map with SVG paths for individual towns.
-	var mpoSVG = svgContainer.selectAll("path")
+	var mpoSVG = map.selectAll("path")
 		.data(mpoFeatureCollection.features)
 		.enter()
 		.append("path")
 		.attr("id", function(d, i) { return d.properties.town_id; })
 		.attr("d", function(d, i) { return geoPath(d); })
 		.style("fill", "#ffffff")
-		.append("title")   
+		.append("title")
 			.text(function(d, i) { 
 					var retval;
 					retval = d.properties.town + '\n';
@@ -99,8 +131,8 @@ function generateViz(mpoFeatureCollection, maTownUtils) {
 		var foo = svgContainer.selectAll("path")
 			.attr("d", function(d, i) { return geoPath(d); })
 			.transition()
-			.delay(250)
-			.duration(4000)		
+			// .delay(250)
+			.duration(1000)		
 			.style("fill", function(d, i) {
 				var retval;
 				// Note: This another place where the logical 'join' is performed.
@@ -126,8 +158,8 @@ function generateViz(mpoFeatureCollection, maTownUtils) {
 		var foo = svgContainer.selectAll("path")
 			.attr("d", function(d, i) { return geoPath(d); })
 			.transition()
-			.delay(250)
-			.duration(4000)
+			// .delay(250)
+			.duration(1000)
 			.style("fill", function(d, i) {
 				// Note: This is another place were the logical 'join' is performed.
 				switch(maTownUtils[d.properties.town_id-1].gas) {	
@@ -164,8 +196,8 @@ function generateViz(mpoFeatureCollection, maTownUtils) {
 		var foo = svgContainer.selectAll("path")
 			.attr("d", function(d, i) { return geoPath(d); })
 			.transition()
-			.delay(250)
-			.duration(4000)
+			// .delay(250)
+			.duration(1000)
 			.style("fill", function(d, i) {
 				// Note: This is another place were the logical 'join' is performed.
 				switch(maTownUtils[d.properties.town_id-1].cable) {	
