@@ -2,10 +2,10 @@
 <head lang="en">
 <meta charset="utf-8">
 <title>D3 Map Symbology Transition: Electric/Gas/Cable Utility Providers</title>
-<link rel="stylesheet" href="app.css"/>
+<link rel="stylesheet" href="css/app.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </head>
 <body>
 <h2>D3 Map Symbology Transition: Electric/Gas/Cable Utility Providers</h2>
@@ -14,17 +14,12 @@
 <div id="blurb">
 <h3>Data sources: GeoJSON and CSV</h3>
 <ol>
-<li>Spatial data loaded from GeoJSON file.</li>
-<ul>
-<li>Derived from a clipped version of MassGIS TOWNSURVEY_POLYM layer.</li>
-<li>GeoJSON first generated in ArcMap using Calvin Metcalf's 
-    <a href="http://calvinmetcalf.com/post/53837935250/guide-to-esri-to-open" target="_blank">esri-to-open</a> tool.</li>
-</ul>
+<li>Spatial data loaded from GeoJSON file, derived from a clipped version of MassGIS TOWNSURVEY_POLYM layer.</li>
 <li>Tabular data loaded from CSV file - MassGIS TOWNS_POLY_UTILITIES table.</li>
 <li>The 'join' of #1 with #2 is implemented (trivially) in JavaScript - see comments in the code.</li>
 <li>Includes simple D3 on-hover &quot;title&quot; tooltip for each town.</li>
-<li>Pan and zoom (from 0.2x to 5x) - <strong>Not yet implemented.</strong></li>
-</ul>
+<li>Pan and zoom (from 0.2x to 5x).</li>
+<li>Creating legends for the maps and transitioning them are left as exercises for the reader.</li>
 </ol>
 </div>
 <span>
