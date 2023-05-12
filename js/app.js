@@ -9,9 +9,9 @@ function initialize() {
 		}
 	});
 	
-	d3.json("DATA/boston_region_mpo_towns_97.geo.json")
+	d3.json("../DATA/ctps_brmpo_towns.geo.json")
 		.then(function(mpoFeatureCollection) {
-			d3.csv("DATA/towns_poly_utilities.csv")
+			d3.csv("../DATA/towns_poly_utilities.csv")
 				.then(function(maTownsUtils) {
 					generateViz(mpoFeatureCollection, maTownsUtils);
 			});
